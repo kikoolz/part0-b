@@ -1,0 +1,12 @@
+sequenceDiagram
+    participant User
+    participant Browser
+    participant Server
+
+    User->>Browser: user creates new note on single-page app and clicks save
+    Browser->>Server: POST new note data
+    activate Server
+    Server-->>Browser: HTTP Status Code 201 Created
+    deactivate Server
+
+    Note over Browser: browser updated with new note
