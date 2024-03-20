@@ -10,4 +10,11 @@ An updated HTML document with a new note is sent back to the browser. The HTML d
 A sequence diagram that depicts a user navigating to a single-page app. The browser sends a GET request to the server, and the server responds by sending an HTML document with script tags. The browser executes the javascript and fetches the notes.
 The server reverts to the browser with a JSON file. The browser renders notes with DOM-API.
 
-<a href="https://www.mermaidchart.com/app/projects/d1e1c663-04e7-4f52-9d11-a6058caba3b0/diagrams/465dddbe-cdfc-4f6f-9a61-0d97f82ad239/version/v0.1/edit">Single Page App Link</a>
+<a href="https://www.mermaidchart.com/app/projects/d1e1c663-04e7-4f52-9d11-a6058caba3b0/diagrams/465dddbe-cdfc-4f6f-9a61-0d97f82ad239/version/v0.1/edit" target="_blank">Single Page App Link</a>
+
+
+**0.6: New Note in Single Page App Diagram**
+A sequence diagram that depicts a user creating a new note in the text field of a single-page app. The browser sends a POST request to the server, and the server responds with an HTTP status 201 code created.
+The browser then on receiving the successful response updates the user interface with the new note.
+
+<a href="https://www.mermaidchart.com/app/projects/d1e1c663-04e7-4f52-9d11-a6058caba3b0/diagrams/0982fb6a-96e0-4570-984a-3c582c9d5a10/version/v0.1/edit" target="_blank">New Note in Single Page App Link</a>
